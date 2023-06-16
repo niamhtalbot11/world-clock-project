@@ -2,11 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>World Clock project</title>
-    <link href="src/style.css" rel="stylesheet" type="text/css" />
-
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <link href="src/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div class="container">
+        
     <h1>World Clock</h1>
     
     <select id="cities">
@@ -14,21 +22,50 @@
         <option value="Sydney">Sydney</option>
         <option value="Los Angeles">Los Angeles</option>
     </select>
+    
     <br>
-
-    <div class="city">Sydney</div>
-    <div class="date">August 13th 2023</div>
-    <div class="time">18:51</div>
     
+<div class="row">
+<div class="city 12">Sydney</div>
+</div>
+<div class="row">
+    <div class="date col">August 13th 2023</div>
+    <div class="time col">18:51:22</div>
+</div>
 
-    <div class="city">Los Angeles</div>
-    <div class="date">August 13th 2023</div>
-    <div class="time">09:51</div>
+<hr class="dashed-line">   
+
+<div class="row">
+    <div class="city 12">Los Angeles</div>
+</div>
+<div class="row">
+    <div class="date col">August 13th 2023</div>
+    <div class="time col">09:51:22</div>
+</div>
+
+<hr class="dashed-line">    
+ 
+<div class="row">
+    <div class="city 12">Dublin</div>
+</div>
+<div class="row">
+    <div class="date col">August 13th 2023</div>
+    <div class="time col align:middle">07:22:22</div>
+</div>
     
-    <footer>Made with tears 💧 
-        By Niamh Talbot and is
-    <a href="https://github.com/niamhtalbot11/world-clock-project.git" target="_blank">Open sourced on Github</footer>
-    <script src="src/index.js"></script>
-
+<footer>Made with tears 💧 
+    By Niamh Talbot and is
+<a href="https://github.com/niamhtalbot11/world-clock-project.git" target="_blank">
+Open sourced on Github</footer>
+</div>
 </body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+crossorigin="anonymous">
+</script>
+
+
+<script src="src/index.js"></script>
 </html>
