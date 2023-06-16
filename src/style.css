@@ -1,5 +1,7 @@
 body {
     background-color: #EC9663;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing:3px;
 }
 .container{
     background-color: #EBEBE4;
@@ -11,13 +13,16 @@ body {
     margin-top :20px;
 }
 h1 {
+    font-size: 50px;
     text-align: center;
     padding-top:15px;
+    font-family: 'Rubik Iso', cursive;
 }
 .dashed-line {
     border-bottom: 1px dashed #292340;
 }
 #cities {
+    margin-top:10px;
     background-color:#EBEBE4 ;
     border-radius: 10px;
     border: 1.5px solid #292340;
@@ -45,5 +50,13 @@ h1 {
 }
 footer {
     text-align: center;
-    margin-top:30px;
+    margin-top:20px;
 }
+a {
+    margin:5px;
+    color:inherit;
+    text-decoration:none;
+  }
+  p{
+    text-align: center;
+  }
