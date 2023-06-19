@@ -13,7 +13,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Titillium+Web&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.js"></script>
   <link href="src/style.css" rel="stylesheet" type="text/css" />
+  <link href="src/index.js" rel ="stylesheet" type="text/js"/>
 </head>
 <body>
     <div class="container">
@@ -22,40 +25,46 @@
     
     <select id="cities">
         <option value="">Select a city</option>
-        <option value="Sydney">Sydney</option>
-        <option value="Los Angeles">Los Angeles</option>
-        <option value="Dublin">Dublin</option>
+        <option value="sydney">Sydney</option>
+        <option value="los_angeles">Los Angeles</option>
+        <option value="dublin">Dublin</option>
     </select>
     
     <br>
-    
+
+<span id="sydney">
 <div class="row">
-<div class="city 12">Sydney</div>
+<div class="city" id ="sydney">Sydney</div>
 </div>
 <div class="row">
     <div class="date col">August 13th 2023</div>
     <div class="time col">18:51:22</div>
 </div>
+</span>
 
 <hr class="dashed-line">   
 
+<span id ="los-angeles">
 <div class="row">
-    <div class="city 12">Los Angeles</div>
+<div class="city">Los Angeles</div>
 </div>
 <div class="row">
     <div class="date col">August 13th 2023</div>
     <div class="time col">09:51:22</div>
 </div>
+</span>
 
 <hr class="dashed-line">    
 
+<span id="dublin">
 <div class="row">
-    <div class="city 12">Dublin</div>
+<div class="city" id ="dublin">Dublin</div>
 </div>
 <div class="row">
     <div class="date col">August 13th 2023</div>
     <div class="time col">07:22:22</div>
 </div>
+</span>
     
 <footer>Made with tears 💧 
     By Niamh Talbot</footer>
