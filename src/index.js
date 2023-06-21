@@ -48,6 +48,8 @@ dublinTimeElement.innerHTML = dublinTimezone.format("h:mm:ss");
         <div class="date col">${cityTime.format("MMMM D, YYYY")}</div>
         <div class="time col">${cityTime.format("h:mm:ss")}</div>
         </div>
+        
+        <div class="homeLink"><a href="index.html">All cities❤️</a></div>
         `;
  }
  
